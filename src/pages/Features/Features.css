@@ -1,0 +1,29 @@
+.features-page{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+
+    h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .ul-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        gap: 20px;
+        margin: auto;
+
+        li{
+            font-size: 25px;
+        }
+    }
+}
